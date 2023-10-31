@@ -1,0 +1,11 @@
+# Resize an EBS
+
+i. Modifying volume size 1280 to 1530 in aws interface.
+
+ii. Login to compute 6.
+
+iii. df -h to see disk space
+
+iv. lsblk -fs to see file system
+
+iv. sudo xfs_growfs -d /projects
