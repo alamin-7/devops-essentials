@@ -19,3 +19,16 @@ ii. sudo growpart /dev/nvme0n1 1 [ Here 1 is the partition number ]
 iii. sudo resize2fs /dev/nvme0n1p1 [ext4]
 
 iv. sudo xfs_growfs -d / [xfs]
+
+
+# Swap space resize:
+
+i. swapoff : sudo swapoff /dev/xvda1 [device name]
+
+ii. increase the volume or device size [ /dev/xvda ]
+
+iii. sudo mkswap /dev/xvda
+
+iv.sudo swapon /dev/xvdf
+
+v. sudo swapon --show
