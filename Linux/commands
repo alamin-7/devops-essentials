@@ -1,0 +1,8 @@
+
+# get UUID of linux machine
+
+sudo dmidecode -s system-uuid
+
+# encode some text in terminal 
+
+exho -n 'username' | base64

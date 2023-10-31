@@ -1,3 +1,0 @@
-# kill a user processes
-
- sudo pkill -u 'username'
