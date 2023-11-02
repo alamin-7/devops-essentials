@@ -9,3 +9,9 @@ git branch -r
 # git rebase
 
  Rebasing is the process of moving or combining a sequence of commits to a new base commit
+
+# git pull --rebase origin master
+
+This command will make commit on top of the remote commit. In simple words, my local commits will be
+
+placed first then the remote commits.  'A' 'B' 'C' [local] 'X' 'Y' 'Z' [remote]
