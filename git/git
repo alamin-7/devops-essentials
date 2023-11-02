@@ -1,0 +1,7 @@
+# check all branch
+
+git branch -all/-a
+
+# check all remote branch 
+
+git branch -r
