@@ -15,3 +15,8 @@ git branch -r
 This command will make commit on top of the remote commit. In simple words, my local commits will be
 
 placed first then the remote commits.  'A' 'B' 'C' [local] 'X' 'Y' 'Z' [remote]
+
+#  git reflog
+
+Git keeps a reflog, which is a log of all changes to the branches in your repository. 
+You can use the reflog to find lost commits or changes
