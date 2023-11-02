@@ -5,3 +5,7 @@ git branch -all/-a
 # check all remote branch 
 
 git branch -r
+
+# git rebase
+
+ Rebasing is the process of moving or combining a sequence of commits to a new base commit
