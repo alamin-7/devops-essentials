@@ -14,3 +14,7 @@ ps -eo pid,user,%mem,start --sort  -%mem | awk '!/root/{printf "%-10s %-10s %-10
 # check a direcory used space by a folder
 
 sudo du -h --max-depth=1
+
+# network restart
+
+sudo systemctl restart network
