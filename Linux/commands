@@ -10,3 +10,7 @@ exho -n 'username' | base64
 # ps command
 
 ps -eo pid,user,%mem,start --sort  -%mem | awk '!/root/{printf "%-10s %-10s %-10s %-15s\n", $1, $2, $3, $4}'
+
+# check a direcory used space by a folder
+
+sudo du -h --max-depth=1
