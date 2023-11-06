@@ -18,3 +18,15 @@ sudo du -h --max-depth=1
 # network restart
 
 sudo systemctl restart network
+
+# create user in linux with uid and gid and directory
+
+sudo useradd -m -d /home/username -u <desired_uid> -g <desired_gid> <username>
+
+# update uid
+
+sudo usermod -u uid username
+
+# update gid
+
+sudo groupmod -g gid username
