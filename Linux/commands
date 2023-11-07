@@ -30,3 +30,11 @@ sudo usermod -u uid username
 # update gid
 
 sudo groupmod -g gid username
+
+# kill process info
+
+sudo dmesg -T | egrep -i 'killed process'
+
+# archutecture
+
+uname -m
