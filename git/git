@@ -20,3 +20,14 @@ placed first then the remote commits.  'A' 'B' 'C' [local] 'X' 'Y' 'Z' [remote]
 
 Git keeps a reflog, which is a log of all changes to the branches in your repository. 
 You can use the reflog to find lost commits or changes
+
+# git merge
+
+git merge is use for combining commits of two or more branches into a singe branch [first forward merge]. 
+
+When the base branch has changed since the branch was first created, three way of merging takes place.
+Git in this situation generates a fresh merging commit that incorporates the modifications from both branches
+
+When we perform merging, git always merges with the current branch from where we are performing the operation.
+
+By this, the branch being merged is not affected.
