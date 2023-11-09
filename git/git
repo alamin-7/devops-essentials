@@ -46,3 +46,11 @@ Step 5: Commit the merged code.
 
 Step 6: Push the merged branch.
 
+
+# git auto complete
+
+in .bashrc file
+
+source /etc/bash_completion.d/git
+# or
+source /usr/share/bash-completion/completions/git
