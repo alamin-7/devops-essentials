@@ -46,3 +46,7 @@ i. rpm -q glibc-2.26-63.amzn2.0.1.i686
 You can use the rpm command for querying individual packages because it is a lower-level 
 package management tool that provides fine-grained control over individual packages. 
 It allows you to inspect, query, install, and uninstall packages on your system at a package level.
+
+# check which dynamic library is need to run the executable
+
+ldd "executable name"
