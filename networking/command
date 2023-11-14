@@ -1,3 +1,7 @@
 # details about network interface
 
 sudo ethtool enX0
+
+# with ip, interface and others
+
+ip addr show enX0
