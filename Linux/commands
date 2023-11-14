@@ -47,6 +47,12 @@ You can use the rpm command for querying individual packages because it is a low
 package management tool that provides fine-grained control over individual packages. 
 It allows you to inspect, query, install, and uninstall packages on your system at a package level.
 
+#  waht is library
+
+Pre compiled of code. Library is just a file containg file. Library do not execute but used in program.
+
+static librray is like copy and paste the code in program. but in shared library is like use the pre-compile code in program.
+
 # check which dynamic library is need to run the executable
 
 ldd "executable name"
