@@ -54,3 +54,15 @@ in .bashrc file
 source /etc/bash_completion.d/git
 # or
 source /usr/share/bash-completion/completions/git
+
+# repo updated in gitlab
+
+i. clone from gitlab
+
+ii. remote add
+
+iii. fetch
+
+iv. pull   / git pull github master [git merge]
+
+v. push    / git push origin master
