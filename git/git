@@ -66,3 +66,15 @@ iii. fetch
 iv. pull   / git pull github master [git merge]
 
 v. push    / git push origin master
+
+# another option 
+
+i. clone from github
+
+ii. create a gitlab project.
+
+iii. remote add gitlab
+
+iv. push to gitlab
+
+
