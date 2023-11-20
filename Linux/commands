@@ -56,3 +56,11 @@ static librray is like copy and paste the code in program. but in shared library
 # check which dynamic library is need to run the executable
 
 ldd "executable name"
+
+To start a process and give it a nice value other than the default one
+
+$ nice -n [value] [process name]
+
+to change the value
+
+$ renice [value] -p 'PID'
