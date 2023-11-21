@@ -77,4 +77,12 @@ iii. remote add gitlab
 
 iv. push to gitlab
 
+# git submodule path add to repo
+
+git submodule init
+git submodule update
+git add .
+git commit -m "Updated submodules"
+git push
+
 
