@@ -3,3 +3,9 @@
 # $ kubectl version --client
 
 # $ minikube profile list [profile, vm driver, run time, IP, port, version, status]
+
+# kubectl create deployment [name] [image] [port]
+
+# kubectl get deployments
+
+# kubectl expose deployment [deployment name] [--type] [--port=8080]
