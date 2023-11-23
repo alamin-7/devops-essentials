@@ -1,0 +1,5 @@
+# $ minikube kubectl -- get pods -A
+
+# $ kubectl version --client
+
+# $ minikube profile list [profile, vm driver, run time, IP, port, version, status]
