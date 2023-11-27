@@ -79,10 +79,12 @@ iv. push to gitlab
 
 # git submodule path add to repo
 
+add the path and url in .gitmodules
+
 git submodule init
 git submodule update
 git add .
 git commit -m "Updated submodules"
-git push
+git push origin [gitlab may be] [branch name] 
 
 
