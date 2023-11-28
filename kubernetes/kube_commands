@@ -15,3 +15,7 @@
 # kubectl get services
 
 # minikube stop
+
+-> to read local image
+
+# eval $(minikube docker-env)
