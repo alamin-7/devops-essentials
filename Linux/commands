@@ -64,3 +64,11 @@ $ nice -n [value] [process name]
 to change the value
 
 $ renice [value] -p 'PID'
+
+# get page size of ram
+ 
+ getconf pageSIZE [not sure. google before execute]
+ 
+# To see the current firewall rules, use the -L flag
+ 
+ sudo iptables -L
