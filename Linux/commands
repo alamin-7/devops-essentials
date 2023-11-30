@@ -72,3 +72,11 @@ $ renice [value] -p 'PID'
 # To see the current firewall rules, use the -L flag
  
  sudo iptables -L
+
+ # run a command in background
+
+ $ 'some command &'
+
+ # bring back the background job
+
+ $ fg
