@@ -19,3 +19,9 @@
 -> to read local image
 
 # eval $(minikube docker-env)
+
+-> create a deploment descriptor using local registry image
+
+# kubectl create deployment mydemo --image=localhost:5000/hello --dry-run=client -o=yaml > deployment.yaml
+
+# kubectl apply -f deployment.yaml
