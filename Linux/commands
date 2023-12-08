@@ -85,3 +85,6 @@ $ renice [value] -p 'PID'
 
  lftp -u username,password remote_ftp_dns -e 'cd /path/to/downlaoded_dir; 
  mirror --parallel=folder_name_to_be downlaoded; exit'
+
+ lftp -u username,password ftp_dns -e 
+ 'cd remote_dir; mirror --parallel=8 --use-pget-n=16 folder_to_be_downloaded ; exit'
