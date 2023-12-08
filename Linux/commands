@@ -80,3 +80,8 @@ $ renice [value] -p 'PID'
  # bring back the background job
 
  $ fg
+
+ # download from ftp
+
+ lftp -u username,password remote_ftp_dns -e 'cd /path/to/downlaoded_dir; 
+ mirror --parallel=folder_name_to_be downlaoded; exit'
