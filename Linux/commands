@@ -88,3 +88,15 @@ $ renice [value] -p 'PID'
 
  lftp -u username,password ftp_dns -e 
  'cd remote_dir; mirror --parallel=8 --use-pget-n=16 folder_to_be_downloaded ; exit'
+
+ # copy
+
+rsync --info=progress2 -ar ./folder_to_copty/ /destination/path
+
+# zip some files
+
+cat file1 file2 ..  > zip_file_name.tar.gz
+
+# unzip
+
+tar xzf file.tar.gz -C /unzip/to/path
