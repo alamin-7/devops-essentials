@@ -100,3 +100,7 @@ cat file1 file2 ..  > zip_file_name.tar.gz
 # unzip
 
 tar xzf file.tar.gz -C /unzip/to/path
+
+# convert ssh2 to openssh
+
+ssh-keygen -i -f ssh2.pub 
