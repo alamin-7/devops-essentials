@@ -113,4 +113,10 @@ sudo find / -type f -name centOS 2>/dev/null
 
 scp -i path/to/pem/file  username@ec2-ip:/path/of/source/file /destination/path
 
+# copy local to ec2
 
+ scp -i /path/private/key /source/file/path username@ec2-ip:/destibation/folder
+
+# parallel gzip
+
+time pigz -c -1 file-name > file-name.gz
