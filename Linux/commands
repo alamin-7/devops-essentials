@@ -104,3 +104,13 @@ tar xzf file.tar.gz -C /unzip/to/path
 # convert ssh2 to openssh
 
 ssh-keygen -i -f ssh2.pub 
+
+# find a file
+
+sudo find / -type f -name centOS 2>/dev/null
+
+# copy from ec2 to local
+
+scp -i path/to/pem/file  username@ec2-ip:/path/of/source/file /destination/path
+
+
