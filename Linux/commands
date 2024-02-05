@@ -120,3 +120,8 @@ scp -i path/to/pem/file  username@ec2-ip:/path/of/source/file /destination/path
 # parallel gzip
 
 time pigz -c -1 file-name > file-name.gz
+
+# installing stress in amazon linux 2
+
+sudo amazon-linux-extras install epel -y
+sudo yum install stress -y
