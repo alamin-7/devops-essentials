@@ -125,3 +125,7 @@ time pigz -c -1 file-name > file-name.gz
 
 sudo amazon-linux-extras install epel -y
 sudo yum install stress -y
+
+# stress using
+
+sudo stress --vm-bytes 480M --vm-keep -m 1
