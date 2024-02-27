@@ -25,3 +25,18 @@
 # kubectl create deployment mydemo --image=localhost:5000/hello --dry-run=client -o=yaml > deployment.yaml
 
 # kubectl apply -f deployment.yaml
+
+# push local image to docker hub
+
+docker tag local_image:tag docker_hub_username/repository:tag
+
+docker push docker_hub_username/repository:tag
+
+
+# port forwarding pod to local
+
+kubectl port-forward pod_name local_port:pod_port
+
+# making spring boot application .jar file
+
+mvn clean install -DskipTests
