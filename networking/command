@@ -5,3 +5,15 @@ sudo ethtool enX0
 # with ip, interface and others
 
 ip addr show enX0
+
+# Network troubleshooting utility
+
+traceroute option... host
+
+i. Trace the Route Using IPv6
+
+traceroute6 host
+
+ii. Disable IP Address and Hostname Mapping
+
+traceroute n host
