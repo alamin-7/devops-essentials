@@ -1,0 +1,7 @@
+list of nfs commands:
+
+chnfs: Starts a specified number of biod and nfsd daemons
+
+automount: Mounts an NFS file system automatically
+
+rmnfsmnt: Removes NFS-mounted file systems from a client's list of mounts
