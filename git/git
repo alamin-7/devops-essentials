@@ -88,3 +88,8 @@ git commit -m "Updated submodules"
 git push origin [gitlab may be] [branch name] 
 
 
+# git flow
+
+Git Flow is a branching model and workflow for managing software development projects using Git. 
+It provides a structured approach to branching and merging, making it easier to handle development, 
+release management, and collaboration in complex projects
